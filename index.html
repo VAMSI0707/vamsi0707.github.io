@@ -1,0 +1,111 @@
+ <!-- 
+    Home Task
+1.	Sign up for a GitHub account if you don’t have it already.
+2.	Design and Develop a Single Web page application as per the below mentioned link. https://epam-my.sharepoint.com/:i:/p/sandeep_nanajkar/ETWmimM3fPhCmzpOy9YTIogByAYcrmUyV_TAo8auENNOFA?e=gXxanM
+3.	Using HTML5 & CSS3, you should implement all the discussed/valuable features.
+4.	Add google fonts of your choice (Ex: Roboto)
+5.	Application will run purely on the client-side in latest Chrome browser.
+6.	Your application should be Responsive (Using CSS3 Media Queries / Breakpoints – Any 2)
+7.	Validate HTML5 and CSS3.
+8.	Separation of Concerns – We expect separation of concerns with your structure.
+9.	You're not allowed to use any framework (Bootstrap/Foundation)
+10.	Bonus: Understood the basic usage of Git and raised PR smoothly.
+11.	Host your application after completion of Home task (Developed + Reviewed), using your GitHub page on your GitHub account: https://pages.github.com/
+
+
+Rate Criteria
+5 stars (Perfect): Webpage is usable and looks good as per mockup.
+
+4 stars (Fine): Webpage is usable but have design issues as per mockup.
+3 star (Good Enough): Webpage is usable and have valid HTML & CSS. Only few HTML/CSS features used.
+
+Important Notes
+1.	Use as many features as possible you can. You can include your learnings from the references/online courses.
+2.	You need to raise a PR on GitHub and share it with your Mentor on time so that mentor gets enough time to review your code.
+3.	It is your duty to connect with your mentor to clarify your queries/doubts.
+4.	Once your mentor Signs off. You can make the session as Done on grow portal.
+-->
+<html>
+
+<head>
+    <title>
+        NEWS BLOG
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1 class="main-title">
+                NEWS BLOG
+            </h1>
+            <h5 class="sub-title">
+                WORLDWIDE NEWS
+            </h5>
+        </div>
+    </header>
+
+    <div class="category-container">
+        <div class="category-item">
+            <span>SELECT CATEGORY</span><br>
+            <select name="category">
+                <option value="all">All</option>
+                <option value="category1">Category1</option>
+                <option value="category2">Category2</option>
+            </select>
+        </div>
+        <div class="allnews-headingitem">
+            <h1>ALL NEWS</h1>
+        </div>
+        <div class="subscribe-item">
+            <span>SUBSCRIBE</span><br>
+            <input type="email" placeholder="email address" id="email">
+            <button>Subscribe</button>
+        </div>
+    </div>
+    <div class="news-container">
+        <div class="news-item">
+            <img src="image1.jpg" alt="News 1">
+            <div>
+                <h2 class="news-item-title">Title One</h2>
+                <p class="post-details">posted on 1 February,2023 //Category , Category One</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quo esse quaerat obcaecati natus vero
+                    iure, asperiores reprehenderit corporis repudiandae repellendus porro provident autem numquam iusto
+                    unde culpa pariatur voluptatum repellat cupiditate magni quod commodi explicabo odit. Debitis
+                    nesciunt eum quis quaerat, ut, accusantium vel dolore natus, in fugit repellendus. </p>
+                <p><button class="continue-reading-button">Continue Reading</button></p>
+            </div>
+        </div>
+        <div class="news-item">
+            <img src="image2.jpg" alt="News 2">
+            <div>
+                <h2 class="news-item-title">Title Two</h2>
+                <p class="post-details">posted on 1 February,2023 //Category , Category One</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quo esse quaerat obcaecati natus vero
+                    iure, asperiores reprehenderit corporis repudiandae repellendus porro provident autem numquam iusto
+                    unde culpa pariatur voluptatum repellat cupiditate magni quod commodi explicabo odit. Debitis
+                    nesciunt eum quis quaerat, ut, accusantium vel dolore natus, in fugit repellendus. </p>
+                <p><button class="continue-reading-button">Continue Reading</button></p>
+            </div>
+        </div>
+        <div class="news-item">
+            <img src="image3.jpg" alt="News 3">
+            <div>
+                <h2 class="news-item-title">Title Three</h2>
+                <p class="post-details">posted on 1 February,2023 //Category , Category Two</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quo esse quaerat obcaecati natus vero
+                    iure, asperiores reprehenderit corporis repudiandae repellendus porro provident autem numquam iusto
+                    unde culpa pariatur voluptatum repellat cupiditate magni quod commodi explicabo odit. Debitis
+                    nesciunt eum quis quaerat, ut, accusantium vel dolore natus, in fugit repellendus. </p>
+                <p><button class="continue-reading-button">Continue Reading</button></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Newsfeed@2023
+    </footer>
+</body>
+
+</html>
